@@ -1,0 +1,50 @@
+@media only screen and (min-width : 320px) and (max-width : 568px) { 
+
+	.container {
+		
+		padding-left:0 !important;
+		padding-right:0 !important;
+		
+	}
+	
+	header {
+	
+		background-size:cover;
+		background-position:center center;
+		text-align: center;
+		min-height:100px !important;
+		overflow:visible;
+		position:relative;
+		display:block;
+		padding-top:20px;
+		padding-bottom:30px;
+	}
+	
+	header h1 a {
+	
+		color:white;
+		font-size:100% !important;
+	}
+	
+	#header-image {
+	
+		width:100% !important;
+		
+	}
+	
+	#sidebar {
+		
+		visibility: hidden;
+	}
+
+	img,
+	#main-content {
+		
+		width:100% !important;
+	}
+	
+	#main-content {
+		
+		padding-right:0 !important;
+	}
+}

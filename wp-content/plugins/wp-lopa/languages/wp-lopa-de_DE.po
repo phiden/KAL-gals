@@ -1,0 +1,267 @@
+# Copyright (C) 2013 Logarithmic Pagination
+# This file is distributed under the same license as the Logarithmic Pagination package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Logarithmic Pagination 0.1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-lopa\n"
+"POT-Creation-Date: 2013-04-22 09:37:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-04-22 11:55+0100\n"
+"Last-Translator: Jonas Heitzer <jonas@k308.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: inc/pagination.php:75
+msgid "Post navigation"
+msgstr "Artikel Navigation"
+
+#: inc/settings.php:8
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/settings.php:23
+msgid "Logarithmic pagination"
+msgstr "Logarithmische Paginierung"
+
+#: inc/settings.php:23
+msgid "Log. Pagination"
+msgstr "Log. Paginierung"
+
+#: inc/settings.php:37
+msgid "General"
+msgstr "Allgemein"
+
+#: inc/settings.php:38
+msgid ""
+"In the future i will try to provide you with more useful stuff here. Check "
+"out the other tabs until then."
+msgstr "In Zukunft folgen hier weitere Informationen."
+
+#: inc/settings.php:44
+msgid "CSS"
+msgstr "CSS"
+
+#: inc/settings.php:45
+msgid ""
+"The default CSS is only ment to be a temporary solution. Take the following "
+"code as a starting point and add it to your theme. Then adapt it to fit your "
+"visual needs."
+msgstr ""
+"Das Standard-CSS ist ausschliesslich als Übergangslösung gedacht. Bitte "
+"ersetze es so schnell wie möglich. Der folgende Code soll als Ausgangspunkt "
+"dienen. Passe ihn an und füge ihn de, Stylesheet deines Themes hinzu."
+
+#: inc/settings.php:72
+msgid "Helpful Links"
+msgstr "Hilfreiche Links"
+
+#: inc/settings.php:72
+msgid "Plugins website blog"
+msgstr "Plugin Webseite"
+
+#: inc/settings.php:72
+msgid "Authors blog"
+msgstr "Blog des Autors"
+
+#: inc/settings.php:79
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Sie verfügen nicht über die benötigte Berechtigung diese Seite aufzurufen."
+
+#: inc/settings.php:112
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: inc/settings.php:121
+msgid "Settings deleted."
+msgstr "Einstellungen gelöscht."
+
+#. #-#-#-#-#  plugin.pot (Logarithmic Pagination 0.1.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: inc/settings.php:132
+msgid "Logarithmic Pagination"
+msgstr "Logarithmische Paginierung"
+
+#: inc/settings.php:133
+msgid ""
+"To gain a more balanced link structure for paginated pages this plugins uses "
+"logerithmic logic to calculate which page to link to."
+msgstr ""
+"Durch die generierte Paginierung verteilt sich der Link Juice der ersten "
+"besser auf die folgenden Seiten. Zusätzlich bietet sie dem Nutzer einen "
+"besseren Weg deine Inhalte zu erforschen."
+
+#: inc/settings.php:137
+msgid "Global Options"
+msgstr "Globale Einstellungen"
+
+#: inc/settings.php:138
+msgid "These options relate to <b>all</b> displayed pagination elements."
+msgstr "Diese Einstellungen betreffen <b>alle</b> generierten Paginierungen"
+
+#: inc/settings.php:142
+msgid "Max. # of pages:"
+msgstr "Max. Anzahl der Seiten:"
+
+#: inc/settings.php:146
+msgid "\"Default CSS:"
+msgstr "Standard-CSS:"
+
+#: inc/settings.php:147
+msgid "Use the default style."
+msgstr "Standard CSS verwenden."
+
+#: inc/settings.php:150
+msgid "\"Previous\" &amp; \"Next\" links:"
+msgstr "\"Zurück\" &amp; \"Vor\" links:"
+
+#: inc/settings.php:151
+msgid "Show \"previous\" &amp; \"next\" links"
+msgstr "\"Zurück\" &amp; \"Vor\" Links anzeigen"
+
+#: inc/settings.php:154
+msgid "Text for \"Previous\" Link:"
+msgstr "Text für \"Zurück\" Link:"
+
+#: inc/settings.php:158
+msgid "Text for \"Next\" Link:"
+msgstr "Text für \"Vor\" Link:"
+
+#: inc/settings.php:164
+msgid "Where to show it"
+msgstr "Wo zeigen wir die Paginierung"
+
+#: inc/settings.php:165
+msgid "Choose below on which pages you want the plugin to display pagination."
+msgstr ""
+"Wähle auf welchen Seiten die generierte Paginierung angezeigt werden soll."
+
+#: inc/settings.php:169
+msgid "On the homepage:"
+msgstr "Startseite:"
+
+#: inc/settings.php:170
+msgid "Show pagination on the homepage"
+msgstr "Zeige log. Paginierung auf der Startseite"
+
+#: inc/settings.php:173
+msgid "On category archives:"
+msgstr "Kategorien:"
+
+#: inc/settings.php:174
+msgid "Show pagination on category archives"
+msgstr "Zeige log. Paginierung auf Kategorie-Archiven"
+
+#: inc/settings.php:177
+msgid "On date archives:"
+msgstr "Tag/Monat/Jahr"
+
+#: inc/settings.php:178
+msgid "Show pagination on date archives"
+msgstr "Zeige log. Paginierung auf Tages/Monats/Jahres-Archiven"
+
+#: inc/settings.php:181
+msgid "On tag archives:"
+msgstr "Tags:"
+
+#: inc/settings.php:182
+msgid "Show pagination on tag archives"
+msgstr "Zeige log. Paginierung auf Tag-Archiven"
+
+#: inc/settings.php:185
+msgid "On search-results:"
+msgstr "Suchergebnisse:"
+
+#: inc/settings.php:186
+msgid "Show pagination on search-results"
+msgstr "Zeige log. Paginierung auf Suchergebnisseiten"
+
+#: inc/settings.php:189
+msgid "On author archives:"
+msgstr "Autoren:"
+
+#: inc/settings.php:190
+msgid "Show pagination on author archives"
+msgstr "Zeige log. Paginierung auf Autoren-Archiven"
+
+#: inc/settings.php:195
+msgid "Before Options"
+msgstr "Einstellungen für die Darstellung vor dem Inhalt"
+
+#: inc/settings.php:196
+msgid ""
+"These options only relate to pagination displayed <b>before</b> the content "
+"(loop_start)."
+msgstr ""
+"Diese Einstellungen betreffen nur <b>vor</b> dem Inhalt generierte "
+"Paginierungen (loop_start)."
+
+#: inc/settings.php:200
+msgid "Before loop content:"
+msgstr "Vor dem Inhalt:"
+
+#: inc/settings.php:201 inc/settings.php:216
+msgid "Show pagination"
+msgstr "Paginierung anzeigen"
+
+#: inc/settings.php:204 inc/settings.php:219
+msgid "Id attribute:"
+msgstr "Id-Attribut:"
+
+#: inc/settings.php:210
+msgid "After Options"
+msgstr "Einstellungen für die Darstellung nach dem Inhalt"
+
+#: inc/settings.php:211
+msgid ""
+"These options only relate to pagination displayed <b>after</b> the content "
+"(loop_end)."
+msgstr ""
+"Diese Einstellungen betreffen nur <b>nach</b> dem Inhalt generierte "
+"Paginierungen (loop_end)."
+
+#: inc/settings.php:215
+msgid "After loop content:"
+msgstr "Nach dem Inhalt:"
+
+#: inc/settings.php:225
+msgid "Save Changes"
+msgstr "Speichern"
+
+#: inc/settings.php:229
+msgid "Delete settings"
+msgstr "Einstellungen löschen"
+
+#: inc/settings.php:230
+msgid "This will clear all options."
+msgstr "Hiermit werden alle Einstellungen gelöscht."
+
+#: inc/settings.php:231
+msgid "Delete Settings"
+msgstr "Löschen"
+
+#: wp-lopa.php:47
+msgid "Previous"
+msgstr "Zurück"
+
+#: wp-lopa.php:48
+msgid "Next"
+msgstr "Vor"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.k308.de/wp/logarithmic-pagination"
+msgstr "http://www.k308.de/labs/logarithmic-pagination"
+
+#. Description of the plugin/theme
+msgid "Plugin that inserts logarithmic pagination into archive pages."
+msgstr "Plugin zeigt logarithmische Paginierung auf Blog- und Archivseiten."
+
+#. Author of the plugin/theme
+msgid "Jonas Heitzer"
+msgstr "Jonas Heitzer"
+
+#. Author URI of the plugin/theme
+msgid "http://blog.k308.de"
+msgstr "http://blog.k308.de"
