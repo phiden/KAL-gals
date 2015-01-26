@@ -1,0 +1,509 @@
+/*
+Theme Name: 	Starkers
+Theme URI: 		http://viewportindustries.com/products/starkers
+Description: 	The totally nude Wordpress theme!
+Version: 		4.0
+Author: 		Elliot Jay Stocks & Keir Whitaker
+Author URI: 	http://viewportindustries.com
+Tags: 			starkers, naked, clean, basic
+*/
+
+/*
+===========================
+CONTENTS:
+
+01 Sensible defaults
+02 Typography
+03 Media queries 
+===========================
+*/
+
+/* ---------------------------------------------------------------------------------------------------------- 
+01 Sensible defaults ----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+@import "css/reset.css";
+@import "css/bootstrap.css";
+@import "css/iphone.css";
+
+div,
+article,
+section,
+header,
+footer,
+nav,
+li					{ position:relative; /* For absolutely positioning elements within containers (add more to the list if need be) */ }
+.group:after 		{ display:block; height:0; clear:both; content:"."; visibility:hidden; /* For clearing */ }
+body 				{ background:#fff; /* Don't forget to style your body to avoid user overrides */ }
+::-moz-selection 	{ background:#bcebe3; color:#fff; }
+::selection 		{ background:#bcebe3; color:#fff; }
+
+/* ---------------------------------------------------------------------------------------------------------- 
+02 Typography -----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+/*
+
+14 / 16	= 		0.875em 		(14px equivalent)
+16 / 16	= 		1em 			(16px equivalent)
+18 / 16 = 		1.125em 		(18px equivalent)
+21 / 16 = 		1.3125em 		(21px equivalent)
+24 / 16 = 		1.5em 			(24px equivalent)
+30 / 16 = 		1.875em 		(30px equivalent)
+
+*/
+
+.hidden {
+	
+	display:none;
+}
+
+body,
+input,
+textarea 			{ /* We strongly recommend you declare font-weight using numerical values, but check to see which weights you're exporting first */ 
+
+	font-family: 'Quattrocento Sans', sans-serif;
+	
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 					{ 
+
+	font-weight:bold; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ 
+	font-family: 'Quattrocento Sans', sans-serif;
+	
+	}
+	
+h1 {
+	
+	font-family: 'Over the Rainbow', cursive;
+}
+
+h2 {
+	
+	font-size:1.7em;
+	text-shadow: 1px 1px 1px rgba(188, 235, 227, 1);
+}
+
+h2 a:hover {
+	
+	color: rgba(188, 235, 227, 1);
+	text-shadow: none;
+}
+
+p {
+	
+	font-size:1.125em;
+	line-height:175%;
+	padding-bottom:20px;
+	clear:right;
+}
+
+body {
+		
+	background-image:url('css/ui/knitting.png');
+
+}
+
+.no-shadow {
+	
+	text-shadow:none !important;
+}
+
+.container {
+	
+	background:rgba(250,250,250,1);
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:30px;
+}
+
+#main-main-content {
+	
+	width:100%;
+	height:auto;
+	overflow: auto;
+	
+}
+
+#main-content {
+	
+	width:68%;
+	float:left;
+	height:auto;
+	overflow: auto;
+	border-right:1px solid rgba(188,235,227,.5);
+	padding-right:20px;
+	
+	
+}
+
+#main-content ol li {
+	
+	clear:both;
+}
+
+article {
+	
+	padding-bottom:10px;
+	margin-bottom:20px;
+	border-bottom:1px solid rgba(188,235,227,.5);
+	padding-right:30px;
+	padding-left:30px;
+	height:auto;
+	overflow: auto;
+	display:block;
+}
+
+article h2 {
+	
+	margin-bottom:3px;
+	text-shadow:none;
+}
+
+.date_time_author {
+	
+	font-size:.85em;
+	padding-bottom:15px;
+	color:rgba(51,51,51,.5);
+}
+
+
+#main-content,
+#sidebar {
+	
+	position:relative;
+	height:auto;
+	overflow: hidden;
+	
+}
+
+footer {
+	
+	width:100%;
+	clear:both;
+	padding-top:20px;
+	text-align: center;
+	font-size:80%;
+	color:#ccc;
+}
+
+header {
+	
+	background-image:url('css/ui/kal-header.jpg');
+	background-size:cover;
+	background-position:center center;
+	text-align: center;
+	min-height:300px;
+	overflow:visible;
+	position:relative;
+	display:block;
+	padding-top:20px;
+}
+
+header h1 {
+	
+	font-family: 'Over the Rainbow', cursive;
+	color:white;
+	
+}
+
+header h1 a {
+	
+	color:white;
+	font-size:200%;
+}
+
+header h4 {
+	
+	padding-top:10px;
+	font-weight:400;
+	color:white;
+}
+
+#main-nav { 
+	
+	text-align: center;
+	padding-top:10px;
+	border-bottom:1px solid #E7E6E6;
+}
+
+#main-nav li {
+	
+	display:inline-block;
+	margin-left:15px;
+	margin-right:15px;
+	height:33px !important;
+}
+
+.nav-dropdown button {
+	
+	margin-top:-10px;
+}
+
+#main-nav li a {
+	
+	font-family: 'Over the Rainbow', cursive;
+	font-size:16px;
+	text-shadow: 1px 1px 1px rgba(188, 235, 227, 1);
+	
+}
+
+
+#main-nav li a:hover {
+	
+	color: rgba(188, 235, 227, 1);
+	text-shadow: none;
+	
+}
+
+.nav-dropdown ul{
+	
+	padding-top:0 !important;
+}
+
+.dropdown-toggle {
+	
+	margin-bottom:10px;
+}
+
+
+.dropdown-menu {
+
+	width:263px;
+	text-align: center
+
+}
+.dropdown-menu li {
+	
+	display:list-item !important;
+}
+
+#single-page-tags {
+	
+	clear:both;
+	padding-bottom:30px;
+}
+/* SIDEBAR SIDEBAR SIDEBAR */
+
+#sidebar,
+#sidebar h3 {
+	
+	text-align: center;
+}
+
+#sidebar {
+	
+	width:30%;
+	float:right;
+	padding-left:20px;
+}
+
+.sidebar-section {
+	
+	margin-bottom:60px;
+}
+ 
+#sidebar h3 {
+	
+	font-family: 'Over the Rainbow', cursive;
+}
+
+#phi-progress,
+#jo-progress {
+
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.rav_progress_bar_wrapper {
+	
+	text-align: center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#kal-patterns table {
+	
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+tr.even {
+	
+	background-color:rgba(188, 235, 227, .25);
+
+}
+td {
+	
+	padding-top:10px;
+	padding-bottom:10px;
+}
+/* END SIDEBAR */
+
+/* IMAGES */
+
+
+img {
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	vertical-align:text-top;
+	width:75%;
+	border:1px solid #ccc;
+	padding:4px;
+	height:auto;
+	margin-bottom:20px;
+	
+}
+
+#header-image {
+	
+	display:block;
+	width:auto;
+	height:auto;
+	border:none;
+	
+	
+}
+
+/*clear padding/margin on p elements containing only an image*/
+.clearP {
+	
+	padding:0;
+	margin:0;
+	
+}
+
+/* END IMAGES */
+
+.rav_project {
+    margin-bottom: 5px;
+  }
+  
+  .rav_project a.rav_title {
+    font-size: .9em;
+  }
+  
+  .rav_project .rav_progress_text {
+  
+    position: relative;
+    vertical-align: baseline;
+    padding-top:2px;
+    text-align: center;
+    font-size:10px;
+    font-family: 'Quattrocento Sans', sans-serif;
+  
+  }
+
+  .rav_project .rav_progress_bar_wrapper {
+    border: 1px solid #eee;
+    margin-top: 2px;
+  } 
+
+  .rav_project .rav_progress_bar { 
+    position: relative;
+    padding: 1px;
+    border-left: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #eee;
+  }
+
+  .rav_project .rav_progress_bar .rav_progress_filled { 
+    position: absolute;
+  }
+  
+  .rav_progress_filled {
+	  
+	  height:1em !important;
+  }
+  
+  .rav_project .rav_photo_link {
+    margin-bottom: 5px;
+    display: block;
+    width: 77px;
+    height: 77px;
+    margin-left: 1px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+  }
+  
+  .rav_project .rav_photo_link img {
+    width: 75px;
+    height: 75px;
+    border: 1px solid #ffffff;
+  }
+  
+  .rav_project_with_photos {
+    margin-bottom: 20px;
+  }
+  
+  
+.testing {
+	
+	border:1px red solid !important;
+	color:red !important;
+}
+
+/* PAGINATION */
+.paging-navigation li {
+	
+	float:none !important;
+	
+}
+
+.paging-navigation ul {
+	
+	float:none !important;
+}
+
+#pages_bottom ul {
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+#pages_bottom ul li{
+	
+	display:inline-block;
+}
+
+/* MOBILE */
+#mobile-nav-trigger {
+	
+	padding:10px;
+	margin-bottom:10px;
+	border:2px solid white;
+	position:relative;
+	background-color:rgba(255,255,255,.3);
+	color:white;
+	font-weight:bold;
+}
+
+#mobile-nav {
+	
+	padding:30px;
+}
+
+#mobile-nav .nav-link {
+	
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#mobile-nav .nav-link a {
+	
+	font-size:1.5em;
+}
+
+/* make a change */
